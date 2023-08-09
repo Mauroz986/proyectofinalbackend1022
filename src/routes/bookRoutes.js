@@ -9,7 +9,7 @@ router.post("/", bookController.addBook);
 router.put("/:id", bookController.updateBook);
 router.delete("/:id", bookController.deleteBook);
 
-// Nueva ruta para obtener un libro por su ID
+// Ruta para obtener un libro por su ID
 router.get("/get-by-id/:id", bookController.getBookById);
 
 module.exports = router;

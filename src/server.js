@@ -3,7 +3,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const app = require('./app');
 
-const PORT = process.env.PORT || 8000; //// Lee el puerto del archivo .env o utiliza el puerto 8000 por defecto
+const PORT = process.env.PORT || 8000; //// Lee el puerto del archivo .env o utiliza el puerto 8000 por defecto //explicado en la clase 3 de BeNd
 
 // Conexión a la base de datos MongoDB
 const MONGO_URI = process.env.MONGO_URI;
